@@ -6,6 +6,9 @@
 .pnp.js
 .yarn/install-state.gz
 .env
+/lib/mongodb.js
+/lib/mongoose
+
 # testing
 /coverage
 
@@ -13,6 +16,7 @@
 /.next/
 /out/
 /.env/
+
 
 # production
 /build
