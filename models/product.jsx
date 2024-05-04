@@ -1,10 +1,10 @@
-const { Schema, model } = require("mongoose");
+import  {model, Schema, models} from "mongoose";
 
-const productschema=new Schema({
+const ProductSchema=new Schema({
 
     title:{type:String, required:true},
     description:{type:String, required:true},
     price:{type:String, required:true},
     images:[{type:String}]
 })
-export const Product =model.Product || model('Product',productschema)
+export const Product = models.Product || model('Product', ProductSchema);
