@@ -5,14 +5,14 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-
+.env
 # testing
 /coverage
 
 # next.js
 /.next/
 /out/
-.env
+/.env/
 
 # production
 /build
@@ -28,7 +28,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
-
+.env
 # vercel
 .vercel
 
