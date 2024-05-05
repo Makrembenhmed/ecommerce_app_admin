@@ -4,19 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
-.yarn/install-state.gz
-.env
-/lib/mongodb.js
-/lib/mongoose
-
 # testing
 /coverage
 
 # next.js
 /.next/
 /out/
-/.env/
-
 
 # production
 /build
@@ -33,6 +26,7 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+
 # vercel
 .vercel
 

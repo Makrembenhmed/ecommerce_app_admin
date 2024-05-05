@@ -150,8 +150,8 @@ export default function Product(
               {Array.isArray(images) && images.map((link, index) => (
                 <div key={link} className="relative group ">
 
-                  <img src={link} alt="image" className="object-cover h-32 w-44 rounded-md p-2 " />
-                  <div className='absolute top-2 right-2 cursor-pointer group-hover:opacity-100 opacity-0 transition-opacity '>
+                  <img src={link} alt="image" className="object-cover h-32 w-44 rounded-md p-2 "/>
+                  <div className='absolute top-2 right-2 cursor-pointer group-hover:opacity-100 opacity-0 transition-opacity'>
                     <button onClick={() => handeleDeleteImage(index)}>
                       <svg xmlns="http://www.w3.org/2000/svg"
                         fill="none"
