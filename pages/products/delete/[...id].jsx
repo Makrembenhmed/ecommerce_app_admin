@@ -16,7 +16,7 @@ export default function DeleteProduct() {
 
         }else {
             axios.get('/api/products?id='+id).then(response=>{setProductInfo(response.data)})
-            toast.success('Product delated')
+            
         }
     },[id])
     function goBack(){
@@ -25,6 +25,7 @@ export default function DeleteProduct() {
     }
    async function deleteProd(){
         await axios.delete('/api/products?id='+id)
+        toast.success('Product delated')
         goBack()
     }
 
